@@ -1,0 +1,85 @@
+body{
+    line-height: 1,6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url(imagemfundo.jpeg);
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 100;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    margin: 0 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+} 
+
+a:hover{
+    text-decoration: underline;
+}
+
+.section{
+    background-color: #fff;
+    margin: 100px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.title{
+    background-color: #007960;
+    color: #fff;
+    padding: 10px;
+    margin: -20px -20px 20px 20px;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 60px;
+    z-index: 1;
+    border-bottom: 3px solid #004d4d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone{
+    margin-left: 10px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.center{
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.section:nth-child(odd) .title{
+    background-color: #4caf50;
+}
+.section:nth-child(even) .title{
+    border-color: #ff5723;
+}
+
